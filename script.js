@@ -33,6 +33,7 @@ var chern = 0;
 var dvig = 0;
 var silic = 0;
 var bitum = 0;
+var itog_calc = 0;
 
 
 
@@ -221,18 +222,18 @@ function check()
     }
 
 
+    $("#but_min").click(function () {
+      itog_calc =-50;
+    });
 
-    itog = mainoption_itog + shampoo_itog + koja + chern + dvig + silic + bitum;
+    $("#but_plus").click(function () {
+      itog_calc = 50;
+    });
+
+
+
+    itog = mainoption_itog + shampoo_itog + koja + chern + dvig + silic + bitum + itog_calc;
     document.getElementById('summa').innerHTML =  itog + '₽';
-
-
-
-
-
-
-
-
-
 
 }
 setInterval(check, 0);
