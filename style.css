@@ -16,6 +16,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
+button {
+cursor: pointer;
+}
+
+
 p {
 font-family: "Montserrat";
 display: block;
@@ -237,6 +242,7 @@ margin-top: 0px;
 }
 
 .text_all{
+font-family: "Montserrat";
 display: flex;
 font-size: 36px;
 font-weight: lighter;
@@ -244,7 +250,7 @@ align-items: center;
 color: white;
 margin-left: 30px;
 margin-top: 5px;
-height: 70px;
+height: 90px;
 }
 
 
@@ -270,6 +276,7 @@ background: #5A688B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15.1136px;
 margin-left: 30px;
+cursor: pointer;
 }
 
 .minus{
@@ -280,6 +287,7 @@ justify-content: center;
 color: white;
 font-size: 96px;
 height: 90px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .rectangle_price{
@@ -356,7 +364,7 @@ height: 80px;
 	margin-right: 10px;
 }
 .type_of_car_radio_btn input[type=radio] {
-	display: none;
+ display: none;
 }
 .type_of_car_radio_btn label {
 	display: inline-block;
@@ -379,7 +387,7 @@ height: 80px;
 
 /* Disabled */
 .type_of_car_radio_btn input[type=radio]:disabled + label {
-	background: #5A688B;;
+	background: #33353C;;
 	color: white;
 }
 
@@ -413,7 +421,7 @@ height: 80px;
 
 /* Disabled */
 .main_option_radio_btn input[type=radio]:disabled + label {
-	background: #5A688B;;
+	background: #33353C;;
 	color: white;
 }
 
@@ -447,7 +455,7 @@ height: 80px;
 
 /* Disabled */
 .name_of_car_radio_btn input[type=radio]:disabled + label {
-	background: #5A688B;;
+	background: #33353C;;
 	color: white;
 }
 
@@ -483,7 +491,7 @@ height: 80px;
 
 /* Disabled */
 .advanced_options_btn input[type=checkbox]:disabled + label {
-	background: #5A688B;;
+	background: #33353C;;
 	color: white;
 }
 
@@ -519,4 +527,28 @@ height: 80px;
 .advanced_options_radio_btn input[type=radio]:disabled + label {
 	background: #33353C;;
 	color: white;
+}
+
+.text_all_1{
+	font-weight: 500;
+}
+
+.text_all_2{
+	font-weight: 500;
+}
+
+.text_all_3{
+	font-weight: 500;
+}
+
+.text_all_5{
+	font-weight: 100;
+}
+
+.text_all_6{
+	font-weight: 100;
+}
+
+.text_all_7{
+	font-weight: 100;
 }

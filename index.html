@@ -292,7 +292,7 @@
         <div class="advanced_options1">
 
           <div class="advanced_options_radio_btn">
-            <input id="radio-воск" type="radio" name="a_o">
+            <input id="radio-воск" type="radio" name="a_o" value="1">
             <label for="radio-воск">
             <p class="воск">воск</p>
             </label>
@@ -301,7 +301,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_radio_btn">
-            <input id="radio-нано" type="radio" name="a_o">
+            <input id="radio-нано" type="radio" name="a_o" value="2">
             <label for="radio-нано">
             <p class="нано">нано</p>
             </label>
@@ -310,7 +310,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_radio_btn">
-            <input id="radio-кварц" type="radio" name="a_o">
+            <input id="radio-кварц" type="radio" name="a_o" value="3">
             <label for="radio-кварц">
             <p class="кварц">кварц</p>
             </label>
@@ -319,7 +319,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_btn">
-            <input id="checkbox-кожа" type="checkbox" name="a_o">
+            <input id="checkbox-кожа" type="checkbox" name="checkbox-кожа">
             <label for="checkbox-кожа">
             <p class="кожа">кожа</p>
             </label>
@@ -330,7 +330,7 @@
         <div class="advanced_options2">
 
           <div class="advanced_options_btn">
-            <input id="checkbox-черн" type="checkbox" name="a_o">
+            <input id="checkbox-черн" type="checkbox" name="checkbox-черн">
             <label for="checkbox-черн">
               <p class="черн">черн</p>
             </label>
@@ -339,7 +339,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_btn">
-            <input id="checkbox-двиг" type="checkbox" name="a_o">
+            <input id="checkbox-двиг" type="checkbox" name="checkbox-двиг">
             <label for="checkbox-двиг">
               <p class="двиг">двиг</p>
             </label>
@@ -348,7 +348,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_btn">
-            <input id="checkbox-силик" type="checkbox" name="a_o">
+            <input id="checkbox-силик" type="checkbox" name="checkbox-силик">
             <label for="checkbox-силик">
               <p class="силик">силик</p>
             </label>
@@ -358,7 +358,7 @@
           <img class="vertical_line" src="img/line-37@2x.svg"/>
 
           <div class="advanced_options_btn">
-            <input id="checkbox-битум" type="checkbox" name="a_o">
+            <input id="checkbox-битум" type="checkbox" name="checkbox-битум">
             <label for="checkbox-битум">
               <p class="битум">битум</p>
             </label>
@@ -381,7 +381,17 @@
     <img class="divider" src="img/line-28@1x.svg"/>
 
 
-    <p class="text_all">здесь выводятся выбранные параметры</p>
+    <div class="text_all">
+      <div class="text_all_1" id="text_all_1"></div>
+      <div class="text_all_2" style="margin-left: 9px;"  id="text_all_2"></div>
+      <div class="text_all_3" style="margin-left: 9px;"  id="text_all_3"></div>
+      <div class="text_all_4" id="text_all_4"></div>
+      <div class="text_all_5" id="text_all_5"></div>
+      <div class="text_all_6" id="text_all_6"></div>
+      <div class="text_all_7" id="text_all_7"></div>
+      <div class="text_all_8" id="text_all_8"></div>
+      <div class="text_all_9" id="text_all_9"></div>
+    </div>
 
     <img class="divider" src="img/line-28@1x.svg"/>
 
@@ -390,12 +400,12 @@
 
 
     <p class="price">Цена:</p>
-    <div class="rectangle_minus">
+    <button class="rectangle_minus">
     <p class="minus">-</p>
-    </div>
+    </button>
 
      <div class="rectangle_price">
-     <p class="summa">600₽</p>
+     <p id="summa" class="summa">₽</p>
      </div>
 
      <div class="rectangle_plus">
