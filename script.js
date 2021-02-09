@@ -222,13 +222,6 @@ function check()
     }
 
 
-    $("#but_min").click(function () {
-      itog_calc =-50;
-    });
-
-    $("#but_plus").click(function () {
-      itog_calc = 50;
-    });
 
 
 
@@ -237,3 +230,22 @@ function check()
 
 }
 setInterval(check, 0);
+
+
+$( document ).ready(function() {
+var link = $("#but_min");
+
+link.on('click', function(e) {
+e.preventDefault();
+itog_calc = itog_calc - 50;
+});
+});
+
+$( document ).ready(function() {
+var link = $("#but_plus");
+
+link.on('click', function(e) {
+e.preventDefault();
+itog_calc = itog_calc + 50;
+});
+});
