@@ -1,0 +1,686 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400,500,300|Noto+Sans:800italic,800");
+
+.main {
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	font-kerning: auto;
+	text-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+
+html{
+	font-size: 2vw;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #33353C;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+a{
+	font-family: "Montserrat";
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	text-decoration: none;
+	color: #718BCD;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color:white;
+}
+
+p{
+	font-family: "Montserrat";
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+p1{
+	font-family: "Montserrat";
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0.8vw;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	margin: 0;
+}
+
+button{
+	border: none;
+}
+
+button:active, button:focus {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+.topbar_column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 6vh;
+}
+
+.topbar {
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	height: 5vh;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.divider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 0.5%;
+	width: 99vw;
+	height: 0.18vh;
+	background: #7A8298;
+}
+
+.divider2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 0.5%;
+	width: 97vw;
+	height: 0.18vh;
+	margin-top: 1.2vh;
+	margin-bottom: 1.2vh;
+	background: #7A8298;
+}
+
+.vertical_line{
+	display: flex;
+	justify-content: center;
+	left: 50%;
+	width: 0.1vw;
+	height: 4vh;
+	background: #7A8298;
+}
+
+.vertical_line2{
+	display: flex;
+	justify-content: center;
+	left: 50%;
+	width: 0.1vw;
+	height: 8vh;
+	background: #7A8298;
+}
+
+.auto{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	height: 14vh;
+}
+
+.carsvg{
+	display: flex;
+	justify-content: center;
+	height: 5.5vw;
+	width: 5.5vw;
+}
+
+.type_of_car{
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 14vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	font-size: 5vw;
+	color: white;
+}
+
+.main_options{
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 14vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	font-size: 4vw;
+	color: white;
+}
+
+.advanced_options {
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 28vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 4vw;
+	color: white;
+}
+
+.advanced_options12 {
+	display: flex;
+	flex-direction: column;
+	flex: 6;
+}
+
+.advanced_options1 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	align-items: center;
+	height: 14vh;
+}
+
+.advanced_options2 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	height: 14vh;
+}
+
+.more{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 1;
+}
+
+.text_all{
+	display: flex;
+	justify-content: flex-start;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 9vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 3vw;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.pricebar{
+	display: flex;
+	justify-content: space-around;
+	font-weight: lighter;
+	align-items: center;
+	width: 96vw;
+	height: 14vh;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 4vw;
+	color: white;
+}
+
+.price{
+	flex:1;
+}
+
+.summa_bar{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex:1;
+}
+
+.rectangle_minus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 5vw;
+	height: 9vh;
+	margin-left: 1vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.minus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4.5vw;
+	margin-bottom: 1vh;
+}
+
+.rectangle_price{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 15vw;
+	height: 9vh;
+	margin-left: 0.5vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.summa{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4vw;
+}
+
+.rectangle_plus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 5vw;
+	height: 9vh;
+	margin-left: 0.5vw;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+	cursor: pointer;
+}
+
+.plus{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 4vw;
+}
+
+.start_pos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 7;
+}
+
+.rectangle_start{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 20vw;
+	height: 9vh;
+	background: #5A688B;
+	box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.25);
+	border-radius: 0.8vw;
+}
+
+.start{
+	display: flex;
+	color: white;
+	font-size: 5vw;
+}
+
+
+.overlay {
+	background-color: rgba(1, 0, 0, 0.77);
+	right: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 11;
+	display: none;
+}
+
+.overlay:target {
+	display: block;
+}
+
+.window {
+	width: 98vw;
+	left: 50vw;
+	z-index: 12;
+	margin: 0;
+	position: fixed;
+	border: 1vw;
+	background: #33353C;
+	border-radius: 0.5vw;
+	box-shadow: 0 0.7vw 1vw rgba(0,1,0,.19),0 1vh 3vw rgba(0,1,0,.31);
+	transform: translate(-50%, -1550%);
+	transition: transform 0.4s ease-out;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.overlay:target+.window {
+	transform: translate(-50%, 0%);
+	top: 20vh;
+}
+
+.overlay2 {
+	background-color: rgba(1, 0, 0, 0.4);
+	right: 0;
+	left: 0;
+	position: fixed;
+	top: 20.2vh;
+	bottom: 0;
+	z-index: 11;
+	display: none;
+}
+
+.overlay2:target {
+	display: block;
+}
+
+.window2 {
+	width: 98vw;
+	left: 50vw;
+	z-index: 12;
+	margin: 0;
+	position: fixed;
+	border: 1vw;
+	background: #33353C;
+	border-radius: 0.5vw;
+	box-shadow: 0 0.7vw 1vw rgba(0,1,0,.19),0 1vh 3vw rgba(0,1,0,.31);
+	transform: translate(-50%, -1550%);
+	transition: transform 0.4s ease-out;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.overlay2:target+.window2 {
+	transform: translate(-50%, 0%);
+	top: 20.2vh;
+}
+
+.line1{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+
+
+
+
+.overlay_name_of_car_radio_btn {
+	display: inline-block;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+
+.overlay_name_of_car_radio_btn label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	width: 12vw;
+	height: 5vh;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.overlay_name_of_car_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.overlay_name_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;;
+	color: white;
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  /////  Кнопка марки машины  /////  */
+.name_of_car_radio_btn_hide{
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0.2vw 0.2vw;
+	width: 6vw;
+	height: 6vw;
+	background: #33353C;
+	transition: 0.3s;
+}
+
+.name_of_car_radio_btn_show {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0.2vw 0.2vw;
+	width: 6vw;
+	height: 6vw;
+	background: #5A688B;
+	transition: 0.3s;
+}
+		
+.name_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+
+.name_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0.2vw 0.2vw;
+}
+
+.name_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.name_of_car_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.name_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+
+/*  /////  Кнопка типа машины  ////   */
+.type_of_car_radio_btn {
+	display: inline-block;
+}
+
+.type_of_car_radio_btn input[type=radio] {
+	display: none;
+}
+
+.type_of_car_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 3vw;
+}
+
+.type_of_car_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.type_of_car_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.type_of_car_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+/*  /////  Кнопка основноых опций  ////   */
+.main_option_radio_btn {
+	display: inline-block;
+}
+
+.main_option_radio_btn input[type=radio] {
+	display: none;
+}
+
+.main_option_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.main_option_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.main_option_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.main_option_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+
+
+
+.advanced_options_btn {
+	display: inline-block;
+}
+
+.advanced_options_btn input[type=checkbox] {
+	display: none;
+}
+
+.advanced_options_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.advanced_options_btn input[type=checkbox]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.advanced_options_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.advanced_options_btn input[type=checkbox]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
+
+
+
+
+.advanced_options_radio_btn {
+	display: inline-block;
+}
+
+.advanced_options_radio_btn input[type=radio] {
+	display: none;
+}
+
+.advanced_options_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 0.4vw;
+	padding: 0vw 1vw;
+}
+
+.advanced_options_radio_btn input[type=radio]:checked + label {
+	background: #5A688B;
+	transition: 0.3s;
+}
+
+.advanced_options_radio_btn label:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.advanced_options_radio_btn input[type=radio]:disabled + label {
+	background: #33353C;
+	color: white;
+	transition: 0.3s;
+}
